@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Pixels</title>
+    <link rel="stylesheet" href="zstyles.css">
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="nav-section">
+            <div class="brand-and-navBtn">
+                <span class="brand-name">PIXEL PHOTOGRAPHY</span>
+                <span class="navBtn flex">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </div>
+            <nav class="top-nav">
+                <ul>
+                    <li><a href="zindex.html">Home</a></li>
+                    <li><a href="zportfolio.html">Portfolio</a></li>
+                    <li><a href="zgallery.html">Gallery</a></li>
+                    <li><a href="zexperience.html">Experience</a></li>
+                    <li><a href="zcontact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="section-five">
+        <div class="container">
+            <div class="contact-top">
+                <h3>CONTACT US</h3>
+            </div>
+            <div class="contact-middle">
+                <div>
+                    <span class="contact-icon">
+                        <i class="fas fa-map-signs"></i>
+                    </span>
+                    <span>Address</span>
+                    <p>Butwal, Nepal</p>
+                </div>
+                <div>
+                    <span class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </span>
+                    <span>Contact Number</span>
+                    <p>9804234400</p>
+                </div>
+                <div>
+                    <span class="contact-icon">
+                        <i class="fas fa-paper-plane"></i>
+                    </span>
+                    <span>Email Address</span>
+                    <p>Pixelphotography@gmail.com</p>
+                </div>
+                <div>
+                    <span class="contact-icon">
+                        <i class="fas fa-globe"></i>
+                    </span>
+                    <span>Website</span>
+                    <p>www.pixelsphotography.com</p>
+                </div>
+            </div>
+            <div class="contact-bottom">
+                <form class="form" action="zcontact.php" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required><br> <br>
+                    <input type="email" name="email" placeholder="Your Email" required><br> <br>
+    
+                    <input type="text" name="subject" placeholder="Subject" required><br> <br>
+                    <textarea rows="9" name="message" placeholder="Message" required></textarea> <br> <br>
+                    <input type="submit" class="btn" value="Send Message">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container container">
+            <div>
+                <h2>PIXEL PHOTOGRAPHY</h2>
+            </div>
+            <div>
+                <h3>Free Subscription!</h3>
+                <div class="subs">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="email" placeholder="Email Address">
+                    <button type="submit">SUBSCRIBE</button>
+                </div>
+            </div>
+        </div>
+        <p>&copy; Copyright pixelphotography</p>
+    </footer>
+    <script src="zscript.js"></script>
+</body>
+</html>

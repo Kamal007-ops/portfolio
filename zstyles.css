@@ -1,0 +1,223 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.header .nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header .brand-name {
+    font-size: 1.5em;
+}
+
+.header .top-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.header .top-nav ul li {
+    margin: 0 10px;
+}
+
+.header .top-nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.header .top-nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Main Content Styles */
+.main-content {
+    padding: 40px 0;
+}
+
+.section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Experience Page Styles */
+.experience-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.experience-item p {
+    line-height: 1.6;
+}
+
+/* Gallery Page Styles */
+.gallery {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+}
+
+.gallery-controls {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filter-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filter-btn:hover {
+    background-color: #555;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Portfolio Page Styles */
+.portfolio-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.portfolio-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.portfolio-item p {
+    line-height: 1.6;
+}
+
+.portfolio-item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .subs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer .subs input {
+    padding: 8px;
+    margin-right: 5px;
+}
+
+.footer .subs button {
+    padding: 8px 16px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.footer .subs button:hover {
+    background-color: #777;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .header .nav-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header .brand-name {
+        margin-bottom: 10px;
+    }
+
+    .header .top-nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header .top-nav ul li {
+        margin: 5px 0;
+    }
+
+    .image-gallery img {
+        max-width: 100%;
+    }
+}
